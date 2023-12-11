@@ -19,7 +19,4 @@ var b = async () =>
         await Task.Delay(150);
     }
 };
-await Task.WhenAll(new Task[] {
-a(),
-b()   
-});
+await Task.WhenAll(new Task[] { a(), b() });
